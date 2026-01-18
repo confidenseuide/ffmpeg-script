@@ -10,4 +10,4 @@ Ru:
 
 if you wanna with sound (если хотите со звуком):
 
-`ffmpeg -i "/storage/emulated/0/DCIM/Camera/input.mp4" -vf "scale=-2:720,fps=fps=source_fps/2" -c:v libx265 -crf 28 -c:a libopus -b:a 64k "/storage/emulated/0/DCIM/Camera/output.mp4"`
+`ffmpeg -i "/storage/emulated/0/DCIM/Camera/input.mp4" -vf "scale=-2:720,fps=fps=source_fps/2" -c:v libx265 -crf 30 -c:a libopus -b:a 64k "/storage/emulated/0/DCIM/Camera/output.mp4"`
