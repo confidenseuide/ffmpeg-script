@@ -6,4 +6,4 @@ En:
 In my opinion, this is the best video compression script.
 
 Ru:
-Как по мне: лучший скрипт для сжатия видео.
+Как по мне, лучший скрипт для сжатия видео.
