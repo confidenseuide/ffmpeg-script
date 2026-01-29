@@ -15,3 +15,7 @@ if you wanna with sound (если хотите со звуком):
 Ru: Почему в версии со звуком больше сжатие видеоряда? Чтобы компенсировать добавление звука, а также потому что звук добавляет смысловую нагрузку к видеоряду, и его проще понять даже при низкой четкости.
 
 En: Why in the version with sound is more compression of the video sequence? To compensate the addition of sound, and also because sound adds semantic load to the video sequence, and it is easier to understand even at low clarity.
+
+
+if needed delete metadata (если нужно удалить метаданные):
+`ffmpeg -i /storage/emulated/0/DCIM/Camera/input.mp4 -map_metadata -1 -map_chapters -1 -c copy /storage/emulated/0/DCIM/Camera/output.mp4`
